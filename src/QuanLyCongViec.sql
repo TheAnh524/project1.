@@ -1,0 +1,7 @@
+
+CREATE TABLE Tasks(
+  id INT IDENTITY(1, 1) PRIMARY KEY,
+  title NVARCHAR(100),
+  dueTime DATETIME,
+  note NVARCHAR(1000)
+);
